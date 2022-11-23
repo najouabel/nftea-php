@@ -116,7 +116,7 @@
 	   <form action="" method="post">
 						   <div class="ajout-one">
 							   <div class="ajout-two">
-							   <h3> Update nft:</h3>
+							   <h3 style="color:white;"> Update nft:</h3>
                     <select name="CollectionId" class="form-select" aria-label="Default select example">
                   
                  
@@ -131,25 +131,25 @@
                 </div>
               </div>
 								   
-							   <div class="ajout-two">
-								   <div class="ajout-tree">
-									   <label for="NameNft">NameNft:</label>
-									   <input type="text" id="NameNft" name="NameNft" value="<?= $data['NameNft'] ?>"  >
-								   </div>
-								   <div class="ajout-tree">
-									   <label for="description">description:</label>
-									   <input type="text" name="description" id="description" value="<?= $data['description'] ?>"  >
-								   </div>
-								   <div class="ajout-tree">
-									   <label for="imageNft">imageNft:</label>
-									   <input type="file" id="imageNft" name="imageNft" value="<?= $data['imageNft'] ?>" >
-								   </div>
-								   <div class="ajout-tree">
-									   <label for="Prix">Prix:</label>
-									   <input type="text" id="Prix" name="Prix" value="<?= $data['Prix'] ?>"  >
-								   </div>
-								   <button type="submit" name="submit">update</button>
-							   </div>
+              <div class="ajout-two">
+                <div class="ajout-tree">
+                 <label for="NameNft" style="color:white;">NameNft:</label><br>
+                 <input type="text" id="NameNft" name="NameNft" value="<?= $data['NameNft'] ?>" style="width:350px;" >
+                  </div>
+                 <div class="ajout-tree">
+                   <label for="description" style="color:white;">description:</label><br>
+                    <input type="text" name="description" id="description" value="<?= $data['description'] ?>" style="width:350px;" >
+                    </div>
+                    <div class="ajout-tree">
+                      <label for="imageNft" style="color:white;">imageNft:</label><br>
+                        <input type="file" id="imageNft" name="imageNft" value="<?= $data['imageNft'] ?>" style="width:350px;">
+                      </div>
+                     <div class="ajout-tree">
+                    <label for="Prix" style="color:white;">Prix:</label><br>
+                    <input type="text" id="Prix" name="Prix" value="<?= $data['Prix'] ?>" style="width:350px;" >
+                     </div>
+                     <button type="submit" name="submit" style="width:10%;color:#fff;background-color:#000;border-radius:5px;margin-top:25px;">update</button>
+                      </div>
 						   </div>
 					   </form>
 				   </div>
