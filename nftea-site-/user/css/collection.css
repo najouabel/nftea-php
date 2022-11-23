@@ -1,0 +1,145 @@
+
+.globalsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imgcover{
+    width: 100%;
+    height:35%;
+}
+.div-collection{
+    padding: 2%;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-color: #302B2B;
+}
+
+.nav-item .dropdown .btn-celebre{
+    background-color: #5d5858;
+    color: #fff;
+    border: none;
+    border-radius: 2%;
+    width: 15%;
+}
+.div-collection h2{
+    color: #fff;
+    font-size: medium;
+    align-self: start;
+}
+.list-collection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: #302B2B;
+}
+.list-collection h3{
+    align-self: flex-start;
+    color:#fff;
+}
+.list-collection button{
+    align-self: flex-end;
+}
+.global-card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    justify-content: space-evenly;
+    padding: 6%;
+    background-color: #302B2B;
+}
+.card{
+    margin-bottom: 1%;
+    height:95%;
+} 
+
+.card .two{
+    margin-bottom: 1%;
+    height:95%;
+} 
+.card .one{
+    margin-bottom: 1%;
+    height:55%;
+} 
+ .list-collection .btn-celebre{
+   color: #fff;
+}
+
+.list-collection .btn-celebree{
+    border: none;
+    width: 20%;
+    border-radius: 6%;
+    background-color: #6d6969;
+    color: #fff;
+ }
+ .hr{
+    color: #7f7979;
+    background-color: #302B2B;
+ }
+.card-img-top{
+    height: 60%;
+}
+.class-footer{
+    border-radius: 2%;
+    padding: 2%;
+}
+
+.list-profil{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    background-color: #302B2B;
+    padding: 2% 2% 0%;
+}
+.list-profil button{
+    font-size:medium;
+    background-color: #302B2B;
+    color: #fff;
+    width: 20%;
+    border: none;
+    border-radius: 0%;
+}
+.btn-primary{
+    background-color: rgb(88, 88, 88);
+    border-radius: 2%;
+    width: 45%;
+    padding: 2%;
+    justify-content: center;
+}
+.global{
+    padding: 2%;
+    margin: 2%;
+    color: #fff;
+}
+.ajout-tree input{
+    width: 20%;
+    padding:0%;
+}
+
+@media (max-width:740px) {
+    .global-card{
+        display: grid;
+        grid-template-columns: auto; 
+    
+        justify-content: space-evenly;
+        padding: 6%;
+        background-color: #302B2B;
+    }
+    .list-collection {
+        display: grid;
+        grid-template-columns: auto;
+
+
+    }
+    .list-collection .btn-celebree{
+        width: 120%;
+     }
+     .d-flex{
+        display: flex;
+        flex-direction: column;
+      }
+     
+}
