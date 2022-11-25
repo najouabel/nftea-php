@@ -140,7 +140,7 @@
                   </div>
                  <div class="ajout-tree">
                    <label for="description" style="color:white;">description:</label><br>
-                    <input type="text" name="description" id="description" value="<?= $data['description'] ?>" style="width:350px;" >
+                   <textarea type="text" name="description" id="description" value="<?= $data['description'] ?>" style="width:350px;" ><?= $data['description'] ?></textarea>
                     </div>
                     <div class="ajout-tree">
                       <label for="imageNft" style="color:white;">imageNft:</label><br>

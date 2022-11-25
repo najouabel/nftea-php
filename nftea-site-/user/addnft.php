@@ -131,7 +131,8 @@
 								   </div>
 								   <div class="ajout-tree">
 									   <label for="description">description:</label><br>
-									   <input type="text" name="description" id="description"  placeholder="description">
+                   <textarea type="text" name="description" id="description"  placeholder="description"></textarea>
+
 								   </div>
 								   <div class="ajout-tree">
 									   <label for="imageNft">imageNft:</label><br>
