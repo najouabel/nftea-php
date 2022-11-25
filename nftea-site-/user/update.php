@@ -14,7 +14,9 @@
       $description = $_POST['description'];
       $imageNft = $_POST['imageNft'];
       $Prix = $_POST['Prix'];	
-        
+      if(empty($_POST['imageNft'])){
+        $imageNft=$data['imageNft'] ;
+      }
         $req = $db->prepare("update nft set CollectionId=?, NameNft=?, description=?,imageNft=?,Prix=? where IdNft=?");
         $req->execute([$CollectionId,$NameNft,$description,$imageNft,$Prix,$IdNft]);
     

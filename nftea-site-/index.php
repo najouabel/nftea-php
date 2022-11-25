@@ -109,7 +109,8 @@ rel="stylesheet"/>
           The world's first – and largest – digital marketplace for <br>
           crypto collectibles and non-fungible tokens (NFTs). Buy, sell <br>
           and discover exclusive digital items.<br></p>
-          <button type="button" class="boutton" >All NFTs</button>
+          <button type="button" class="boutton" ><a href="./nft.php">All NFTs</a></button>
+
         </div>
         <div class="presentation">
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -270,7 +271,8 @@ rel="stylesheet"/>
  
     <div class="pmchers">
       <div class="Mptext" ><p class="mptext">The most expensive NFT and the cheap one ,which<br> do you think is better ? ..<br>whatever you cn show us your creativity too ! </p>
-      <button>Create Your NFT</button>
+      <button style="color:#fff"><a  href="./user/profil.php" >Create Your NFT</a></button>
+
     </div>
       <div class="nftCart">
         <div class="sousnftCart">
