@@ -64,7 +64,7 @@ rel="stylesheet"/>
                  
                 </ul>
               </li>
-            </ul>
+            
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search items ,collections ,NFTs .." aria-label="Search">
             <!--  <button class="btn btn-outline-success" type="submit">Search</button>-->
@@ -72,9 +72,9 @@ rel="stylesheet"/>
               <form class="container-fluid justify-content-start">
                 <?php if(!isset($_SESSION['Email'])){
       ?>
-      <button class="btn btn-outline-success me-2" type="button"><a href="login/signUp.php">Sign up</a></button>
-      <button class="btn btn-sm btn-outline-secondary" type="button"><a href="login/login.php">Sign in</a></button>
-            
+      <li><button class="btn btn-outline-success me-2" type="button"><a href="login/signUp.php">Sign up</a></button></li>
+      <li><button class="btn btn-sm btn-outline-secondary" type="button"><a href="login/login.php">Sign in</a></button></li>
+        </ul>    
       <?php
       
       } else { ?> 

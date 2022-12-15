@@ -12,7 +12,7 @@ html, body {
   /* height: 100%; */
 }
 body{
- background: linear-gradient(#000000 ,#74419b, #923CB5  );
+ background: linear-gradient(#000000 ,#914fc3,#bd67ff );
 
 }
 .please{
@@ -42,7 +42,7 @@ background:rgb(11,9,9,0.01) !important;
 .btn  {
   white-space:nowrap;
   border-width:0px !important;
-  color:white;
+  color:white !important;
   margin-bottom:-1.5rem;
 }
 
@@ -735,7 +735,7 @@ align-items:center;
 }
 /*plus ou moins chers */
 .pmchers{
-background-color:#D158FC;
+background-color:rgb(253, 135, 249);
 margin:5%;
 border-radius:10px;
 display:flex;
@@ -831,6 +831,14 @@ animation: anim 0.5s linear forwards;
     padding: 6%;
     background-color: #302B2B;
 }
+.bg-black{
+  background:rgb(11,9,9) !important;
+    transition: all 0.5s;
+  }
+  .bg-black.scrolled{
+    background-color:black !important;
+  }
+
 .line{
   gap: 1%;
 }
